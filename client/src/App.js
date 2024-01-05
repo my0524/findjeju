@@ -11,6 +11,7 @@ import SearchPage from "./pages/SearchPage";
 import Fiesta from "./components/main/fiesta/Fiesta";
 import FestivalSubPage from "./pages/FestivalSubPage";
 import FestivalDetailPage from "./pages/FestivalDetailPage";
+import Weather from "./components/main/weather/Weather";
 
 const router = createBrowserRouter([
 
@@ -27,6 +28,7 @@ const router = createBrowserRouter([
             <Recommand />
             <Rest />
             <Fiesta/>
+            <Weather/>
           </MainContents>
       },
       {
